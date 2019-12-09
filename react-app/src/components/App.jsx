@@ -3,6 +3,10 @@ import ProductsList from './ProductList';
 import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer from './Footer';
+import Navi from './Navigation';
+import Forme from './Form';
+import Carousel from './Carousel';
+import Stripe from './Stripe';
 
 class App extends React.Component {
 
@@ -16,9 +20,12 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <Header cart={this.state.cart} />
+<Navi cart={this.state.cart}/>
+        <Carousel />
         <ProductsList cart={this.state.cart} />
+        <Forme />
         <Footer/>
+        <Stripe/>
       </div>
     );
   }

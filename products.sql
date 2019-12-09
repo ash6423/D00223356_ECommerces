@@ -41,8 +41,12 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `description`, `image_href`) VALUES
-(1, 'Example Product 1', 99.99, 'This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1.', ''),
-(2, 'Example Product 2', 155.00, 'This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. \r\n', 'https://www.dkit.ie/assets/uploads/DkIT%20Funding%20.jpg');
+(1, 'Nike Air Force 1', 80, 'The radiance lives on in the Nike Air Force 1 07, the b-ball OG that puts a fresh spin on what you know best: crisp leather in an all-white colourway for a statement look on and off the court. 
+Colour Shown: White/White. Style: 315115-112', 'https://i1.adis.ws/i/jpl/jd_030664_b?qlt=80&w=600&h=425&v=1'),
+(2, 'Nike Air Max 270', 150.00, 'The Nike Air Max 270 is inspired by two icons of big Air: Air Max 180 and Air Max 93. It features Nikes biggest heel Air unit yet for a soft ride that feels as remarkable as it looks. Colour Shown: Black/White/Anthracite.
+Style: AH6789-001. \r\n', 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSXfiziAxreLxMnhPg2flGIVYspwywreGufwLiCA7UlW4GT4QOoLcA&usqp=CAc');
+(3, 'Nike Air Max 97', 143.97, 'The Nike Air Max 97 keeps a sneaker icon going strong with the same design details that made it famous: water-ripple lines, reflective piping and full-length Max Air cushioning. Colour Shown: Black/Dark Grey/Black
+Style: 921733-001 \r\n', 'https://media.endclothing.com/media/catalog/product/2/0/20-08-2019_nike_airmax97we_black_white_bq4567-001_sh_2.jpg');
 
 --
 -- Indexes for dumped tables
