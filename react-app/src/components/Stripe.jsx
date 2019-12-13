@@ -15,6 +15,7 @@ import StripeCheckout from 'react-stripe-checkout'
           <StripeCheckout
             stripeKey="pk_test_V36nGQetleZRPPrqiWYAL5yS00K4XK7jhR"
             token={this.onToken}
+            label="Pay with 💳"
           />
         )
       }

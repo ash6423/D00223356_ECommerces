@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -7,7 +8,9 @@ class Forme extends React.Component {
 
     render() {
         return (
-            <Form>
+        <Container>
+        <div className='card mb-4'>
+        <Form >
   <Form.Group controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
@@ -27,7 +30,8 @@ class Forme extends React.Component {
     Submit
   </Button>
 </Form>
-      );
+</div>
+</Container>      );
     }
 
 }

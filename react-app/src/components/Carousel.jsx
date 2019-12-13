@@ -1,5 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import airmax97 from './images/airmax97.jpg';
+import nudeshoes from './images/nudeshoes.jpg';
 
 class Carouselitem extends React.Component {
     render() {
@@ -8,7 +10,7 @@ class Carouselitem extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://cdn.shopify.com/s/files/1/0145/7360/0825/products/Original-Authentic-Nike-Air-Max-97-Women-s-Running-Shoes-Fashion-Classic-Outdoor-Sports-Shoes-Breathable_grande.jpg?v=1563000262"
+                        id = "firstimage" src = {airmax97} 
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -19,7 +21,8 @@ class Carouselitem extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="http://picture-cdn.wheretoget.it/v086ed-l-610x610-shoes-nike+shoes-nike-nike+sneakers-nike+shoes+women-nude-nude+sneakers-nike+nude+air+max-beige-beige+shoes-chic-stylish-trendy-fashion+vibe-running-low+sneakers-grey+sneakers-snea.jpg"
+                       id = "nudeshoes" src= {nudeshoes}
+                        width="900px" height="950px"
                         alt="Third slide"
                     />
 
@@ -31,7 +34,7 @@ class Carouselitem extends React.Component {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://shop.r10s.jp/united-parks/cabinet/komono2/komono4/749869-plu.jpg"
+                        src="https://shop.r10s.jp/united-parks/cabinet/komono2/komono4/749869-plu.jpg"  width="1100px" height="950px"
                         alt="Third slide"
                     />
 

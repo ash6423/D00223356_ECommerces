@@ -3,6 +3,7 @@ import AddToCartButton from './AddToCartButton';
 import * as Config     from '../config.json';
 
 import './Product.css';
+import { Container } from 'react-bootstrap';
 
 class Product extends React.Component {
 
@@ -12,6 +13,7 @@ class Product extends React.Component {
   // components.
   render() {
     return (
+      <Container>
       <div className='card mb-4'>
         <h2 className='card-header'>{this.props.product.name}</h2>
         <div className='row'>
@@ -33,6 +35,7 @@ class Product extends React.Component {
         </div>
 
       </div>
+      </Container>
     );
   }
 

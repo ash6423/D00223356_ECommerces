@@ -6,7 +6,8 @@ import Footer from './Footer';
 import Navi from './Navigation';
 import Forme from './Form';
 import Carousel from './Carousel';
-import Stripe from './Stripe';
+
+
 
 class App extends React.Component {
 
@@ -25,7 +26,6 @@ class App extends React.Component {
         <ProductsList cart={this.state.cart} />
         <Forme />
         <Footer/>
-        <Stripe/>
       </div>
     );
   }
